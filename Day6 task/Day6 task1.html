@@ -19,6 +19,24 @@
                     style="fill: orange; stroke: black; stroke-width: 2;" />
                 </svg>
             </section>
+            <section id="svg annimation">
+                <svg width="1000" height="250">
+                    <rect width="150" height="150" fill="orange">
+                        <animate attributename="x" from="0" to="500" dur="2s" fill="freeze" repeatcount="indefinite"/>
+                    </rect>
+                </svg>
+            </section>
+            <section id="path">
+                <svg width="500" height="500">
+                    <path d="M 50 250 L250 250 L250 50 L250 50 Z" style="stroke: #000; fill: burlywood;">
+                        <animate attributeName="d" dur="2s" fill="freeze" repeatCount="indefinite" 
+                        values="
+                        M 50 250 L250 250 L250 50 L250 50 Z;
+                        M 50 250 L250 250 L250 50 L50 50 Z;
+                        M 50 250 L250 250 L250 50 L250 50 Z"/>
+                    </path>
+                </svg>
+            </section>
         </article>
     </body>
 </html>
