@@ -1,0 +1,231 @@
+Day3 task Correction
+
+
+Excellent job finishing all five tasks in one codebase! You’re clearly practicing what you've learned and applying it creatively. I’ll review each **task separately**, give a **rating (out of 10)**, show **errors or improvements**, and share a **clearer/professional version** of each one.
+
+---
+
+## ✅ **Task 1: Personal Portfolio Web Page**
+
+**Rating: 7.5/10**
+
+### 👍 Good:
+
+* Used headings, paragraphs, `<strong>`, `<i>`, lists, and a form.
+* Clear separation of sections using `<hr>`.
+
+### 🔧 Issues:
+
+* Avoid using `<header>` multiple times for unrelated content.
+* Input fields shouldn't have `value="email"` or `value="Message"` — those are used to pre-fill, not placeholders.
+* Add `labels` to your form fields for accessibility.
+
+### ✅ Suggested Fix:
+
+```html
+<section id="about-me">
+  <h1>About Me</h1>
+  <img src="./tree.jpg" alt="Profile picture" width="100" height="100">
+  <p>
+    <i>Hi, I'm <strong>Okwuchi Chiemerie Michael</strong>. I'm 22 years old and a junior software engineer from Nigeria.</i>
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Hobbies and Skills</h2>
+  <ul>
+    <li>Watching YouTube</li>
+    <li>Cleaning</li>
+    <li>Learning to Code</li>
+  </ul>
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+</section>
+
+<section id="contact-form">
+  <h2>Contact Me</h2>
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" placeholder="Your Name"><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" placeholder="you@example.com"><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" placeholder="Your message here"></textarea>
+  </form>
+</section>
+```
+
+---
+
+## ✅ **Task 2: Product Table Showcase**
+
+**Rating: 8.5/10**
+
+### 👍 Good:
+
+* You used a table and colored header backgrounds.
+* Multiple rows, clear layout.
+
+### 🔧 Issues:
+
+* Avoid putting `<header>` inside `<td>`. It’s better to use `<th>` inside a `<thead>` for table headings.
+
+### ✅ Suggested Fix:
+
+```html
+<table border="1">
+  <thead>
+    <tr>
+      <th style="background-color: white;">Product Name</th>
+      <th style="background-color: lightblue;">Description</th>
+      <th style="background-color: pink;">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>iPhone</td>
+      <td>Apple Phone, made by Apple</td>
+      <td>$1057.99</td>
+    </tr>
+    <!-- More rows -->
+  </tbody>
+</table>
+```
+
+---
+
+## ✅ **Task 3: Blog Article Layout**
+
+**Rating: 6.5/10**
+
+### 👍 Good:
+
+* Used image, paragraph, and link.
+
+### 🔧 Issues:
+
+* You missed the use of `<blockquote>` which was part of the original task.
+* You can expand the blog section with more structured content.
+
+### ✅ Suggested Fix:
+
+```html
+<article>
+  <h2>My First Blog</h2>
+  <img src="./blog.png" alt="Blog image" width="100" height="100" style="border: 10px solid red;">
+  <p>
+    I enjoyed learning HTML basics. It's fun and powerful.
+  </p>
+  <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML">
+    "HTML is the standard markup language for Web pages."
+  </blockquote>
+  <p>More info: <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a></p>
+</article>
+```
+
+---
+
+## ✅ **Task 4: Favorite Playlist Page**
+
+**Rating: 6/10**
+
+### 👍 Good:
+
+* Used `<ol>` and form, with YouTube embeds.
+
+### 🔧 Issues:
+
+* `<iframe>` tags are self-closing and should have attributes like `width`, `height`, etc.
+* Using `<p>` *inside* `<li>` incorrectly. That breaks semantics.
+* Use `<label>` for form inputs.
+
+### ✅ Suggested Fix:
+
+```html
+<ol>
+  <li>
+    <iframe width="200" height="100" src="https://www.youtube.com/embed/c0uvqtfDMvk"></iframe>
+    <p>On Form by Burna Boy – my favorite song</p>
+  </li>
+  <!-- Repeat -->
+</ol>
+
+<form>
+  <h3>Submit Your Favorite Song</h3>
+  <label for="song">Song Name:</label><br>
+  <input type="text" id="song" placeholder="Song name"><br>
+
+  <label for="reason">Why do you like it?</label><br>
+  <input type="text" id="reason" placeholder="Reason"><br>
+</form>
+```
+
+---
+
+## ✅ **Task 5: Form Practice**
+
+**Rating: 8/10**
+
+### 👍 Good:
+
+* You used all the expected input types.
+* Good use of placeholder and `required`.
+
+### 🔧 Issues:
+
+* The checkbox needs a `label` and a `name`.
+* The `submit` input doesn’t need a placeholder.
+
+### ✅ Suggested Fix:
+
+```html
+<form>
+  <label for="fullname">Full Name:</label><br>
+  <input type="text" id="fullname" name="fullname" placeholder="Full Name" required><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="email@example.com" required><br>
+
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password" placeholder="Password" required><br>
+
+  <label for="color">Favorite Color:</label><br>
+  <input type="color" id="color"><br>
+
+  <label for="number">Your Age:</label><br>
+  <input type="number" id="number"><br>
+
+  <label for="date">Date of Birth:</label><br>
+  <input type="date" id="date"><br>
+
+  <input type="checkbox" id="terms" name="terms" required>
+  <label for="terms">I agree to terms & conditions</label><br>
+
+  <input type="submit" value="Register">
+</form>
+```
+
+---
+
+## ✅ Final Evaluation:
+
+| Task   | Score  | Comment                                     |
+| ------ | ------ | ------------------------------------------- |
+| Task 1 | 7.5/10 | Solid effort, just improve form structure   |
+| Task 2 | 8.5/10 | Great use of table with styling             |
+| Task 3 | 6.5/10 | Add blockquote and more structure           |
+| Task 4 | 6/10   | Be careful with iframes and element nesting |
+| Task 5 | 8/10   | Very functional, just polish a bit          |
+
+---
+
+## ⭐ Overall Score: **7.3 / 10**
+
+You're doing very well! Just keep improving structure, consistency, and semantic HTML. You're ready to move on to **HTML5 advanced concepts** and **CSS styling** next.
+
+Would you like me to prepare the **next learning tasks and projects** for your HTML5 + CSS stage?

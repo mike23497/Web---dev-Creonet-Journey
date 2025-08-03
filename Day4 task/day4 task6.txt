@@ -1,0 +1,96 @@
+Great job progressing through HTML and now HTML5! Let's now test your knowledge and skills with **5 practical tasks** and **5 fill-in-the-gap questions** that cover everything you've learned so far, including:
+
+* HTML basics
+* Elements, formatting, attributes
+* Images, lists, tables, links, forms, colors
+* HTML5 content model and structure
+* Header, nav, footer
+
+---
+
+### ✅ **5 Practical Coding Tasks (Projects)**
+
+---
+
+#### **Task 1: Personal Profile Page**
+
+Create a simple HTML page that contains:
+
+* Your name in a heading
+* A short paragraph about yourself
+* A profile image (use any image link)
+* A list of your hobbies (unordered)
+* A table showing your weekly learning schedule
+* A link to your favorite website
+* Wrap everything in a proper HTML5 structure (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`, etc.)
+* Use semantic tags: `<header>`, `<nav>`, `<main>`, `<footer>`
+
+---
+
+#### **Task 2: Product Showcase Page**
+
+Design a page for a fictional product (e.g., a phone or shoe) that includes:
+
+* Product name and description using headings and paragraphs
+* A product image
+* A table with product specs (color, price, size, etc.)
+* A list of features using ordered list
+* A form that lets users submit their name, email, and interest in buying the product
+
+---
+
+#### **Task 3: Navigation Practice**
+
+Create a simple website layout with:
+
+* A `header` section containing a logo name and a nav bar with links (use `<nav>` and `<a>`)
+* 3 sections in the `main` area with dummy text
+* A `footer` with contact details
+* Use inline and block elements correctly
+* Add anchor links that allow users to scroll to the different sections
+
+---
+
+#### **Task 4: Course Registration Form**
+
+Build a registration form with the following:
+
+* Name, email, phone number fields
+* Dropdown list of available courses
+* Checkbox for terms and conditions
+* Submit button
+* Add appropriate labels and placeholders
+* Make use of form elements you’ve learned
+
+---
+
+#### **Task 5: Color Themed Portfolio**
+
+Design a webpage using multiple colors:
+
+* Use background color on different sections
+* Use inline styling with `style="color:..."` and `style="background-color:..."` attributes
+* Include headings, paragraphs, image, and at least one table
+* Use semantic tags to show clear structure (`<section>`, `<article>`, etc.)
+
+---
+
+### 🧠 **5 Fill-in-the-Gap Questions (Quick Test)**
+
+1. The tag used to insert an image in HTML is:
+   `<img src="image.jpg" alt="description">`
+
+2. To create a hyperlink to [google.com](http://google.com), you use the `<a>` tag. Write the correct opening tag:
+   `<a href_="https://www.google.com">Google</a>`
+
+3. The default structure of an HTML5 page includes the `<!DOCTYPE html>` declaration and which three main tags?
+   `_<html>_`, `<head>`, `_<body>_`
+
+4. The tag used to create a list with bullet points is: `<ul>`
+
+5. Which tag is **semantic** and used to define navigational links in HTML5?
+   `<nav>`
+
+---
+
+Would you like the answers after trying them yourself, or should I give you the answers to check?
