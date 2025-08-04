@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="Day7 task.css">
+        <style>
+            h4 {
+                color: blueviolet;
+                background-color: lightblue;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <title>CSS course begins</title>
+    </head>
+    <body>
+        <!--This section works for external css code-->
+        <section id="external css">
+        <p>This is first line of paragraph</p>
+        <p>This is second line of paragraph</p>
+        <p>This is Third line of paragraph</p>
+        </section>
+
+        <!--This section works for inline css code-->
+        <section id="inline">
+             <p style="color: black; background-color: burlywood;">This is first line of paragraph</p>
+             <p style="color: white; background-color: black;">This is second line of paragraph</p>
+             <p style="color: darksalmon; background-color: beige;">This is Third line of paragraph</p>
+        </section>
+
+        <!--This section works for embedded css code-->
+        <section id="embedded">
+             <h4>This is an embedded css style code</h4>
+             <h4>This is an embedded css style code</h4>
+             <h4>This is an embedded css style code</h4>
+        </section>
+    </body>
+</html>
+
+<!--Note: when using external and embedded for the same tag or element in a html code, the html code picks the embedded css code over the external css file-->
+<!--There by we need to create a different section for embedded that has h4 tag as an inline code-->
