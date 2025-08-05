@@ -1,0 +1,19 @@
+section {
+    background-color: burlywood;
+}
+h1, h2 {
+    color: bisque;
+    font-size: xx-large;
+}
+p {
+    background-color: black;
+    color: wheat;
+}
+.para {
+    background-color: blueviolet;
+    color: blue;
+}
+#div p {
+    background-color:cornflowerblue;
+    color: white;
+}
