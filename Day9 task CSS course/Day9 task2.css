@@ -1,0 +1,9 @@
+/*This is a comment for the header tag*/
+header {
+    background-color: lightblue;
+    color: rgb(2, 27, 48);
+    font-size: 20px;
+}
+p {
+    font-size: 15px;
+}

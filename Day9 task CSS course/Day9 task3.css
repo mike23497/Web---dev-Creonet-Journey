@@ -1,0 +1,18 @@
+/* The code below Set a default font color and background */
+.Card {
+    background-color: lightgray;
+    color: burlywood;
+}
+/* The code below Set a different background using an ID selector under the probability that selector was changed */
+#Card {
+    background-color: lightblue;
+}
+/* The code below apply a different font color to h2 */
+.Card h2 {
+    color: blueviolet;
+}
+/* The code below shows two conflicting styles with the code above, then resolving which one applies using specificity. */
+.title {
+    font-size: 30px;
+    color: darkblue;
+}
