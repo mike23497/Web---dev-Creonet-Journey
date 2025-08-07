@@ -1,0 +1,13 @@
+body {
+    font-size: 16px;
+}
+.product-card h2 {
+    font-family: helvetica, sans-serif;
+    /*chat this is requires the font-weight property to make it bold, which i haven't gotten to yet in my course*/
+    font-style: normal;
+}
+.description {
+    font-family: arial;
+    font-style: italic;
+    font-size: 1em;
+}

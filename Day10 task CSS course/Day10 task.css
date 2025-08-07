@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    font-size: 1.5em;
+}
+p .italic {
+    font-size: 1.2em;
+    font-style: italic;
+}
