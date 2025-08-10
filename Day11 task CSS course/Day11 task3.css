@@ -1,0 +1,9 @@
+h1.title {
+    font-weight: 900;
+}
+p.tagline {
+    font-weight: normal;
+}
+p.type {
+    font-variant: small-caps;
+}

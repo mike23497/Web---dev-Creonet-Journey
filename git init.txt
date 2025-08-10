@@ -1,0 +1,5 @@
+git init
+git remote add origin https://github.com/mike23497/Web---dev-Creonet-Journey.git
+
+git add .
+git commit -m "Day 11 CSS tasks - added HTML, CSS, and README files"

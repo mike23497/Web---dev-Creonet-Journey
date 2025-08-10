@@ -1,0 +1,10 @@
+h2.name {
+    font-weight: lighter;
+}
+p.category {
+    font-variant: small-caps;
+}
+p.price {
+    font-weight: bold;
+    font-family: serif;
+}
